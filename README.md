@@ -40,4 +40,4 @@ The car starts in the center lane, with speed set to zero and FSM at KL. The car
 
 The path planner in this project is working well, the car is able to go around in the highway without any collision, or jerk warnings. It is able to change lanes smoothly and moves into faster lanes when possible.
 
-
+![turning](turning-01.png)
