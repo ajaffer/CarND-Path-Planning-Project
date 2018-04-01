@@ -23,8 +23,7 @@ When there is another car infront that is going slower than our desired velocity
 CHANGE LANE (CL):
 When the car finds out it a safe time to change lanes, the car goes into CL state.
 
-see 
-https://github.com/ajaffer/CarND-Path-Planning-Project/blob/c54547f86c936c25f51ef407b7aab4539493b3e8/src/main.cpp#L298
+[see](./src/main.cpp#L298)
 
 ## Predictions
 Reading the other car's current location and their speeds, we can predict what location that car will and also can predict our car's location as well.
@@ -38,9 +37,7 @@ A collision may happen when we change our lane and end up being within a close r
 Slow lane speeds:
 A cost function based on the lane speeds, is calculated based on the difference in speeds of our car and other cars that are already in that lane and infront of us.
 
-see cost_of_changing_lanes
-https://github.com/ajaffer/CarND-Path-Planning-Project/blob/c54547f86c936c25f51ef407b7aab4539493b3e8/src/main.cpp#L181
-
+see [cost_of_changing_lanes](./src/main.cpp#L181)
 
 ## Summary
 The car starts in the center lane, with speed set to zero and FSM at KL. The car gently increments/decrements it's speed, in order for the car to not experience total acceleration over 10 m/s^2 and jerk greater than 10 m/s^3. The car will go at a max speed of around 49.5 MPH, in order to be as close to the speed limit.
